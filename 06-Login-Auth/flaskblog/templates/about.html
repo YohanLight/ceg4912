@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>About Page</h1>
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2" href="#">Object Recognition</a>
+          <small class="text-muted">NOV 4</small>
+        </div>
+        <h6>This website specializes in object recognition. Real-Time object recognition involves recognizing people and everyday objects in a video captures and pictures. We designed this site to allow our users post objects they'd like to be recognized by our software.</h6>
+        <ul class="list-group">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Morbi leo risus</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+        <p class="article-content"></p>
+      </div>
+    </article>
+
+
+    <div class="container">
+      <div class="row">
+
+          <img src="{{ url_for('static', filename = 'building.jpg' )}}"  class="img-fluid" alt="s">
+
+      </div>
+    </div>
+
+
+{% endblock content %}

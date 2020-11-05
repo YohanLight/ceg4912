@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">Object Recognition</a>
+              <small class="text-muted">NOV 4</small>
+            </div>
+            <h2><a class="article-title" href="#">Database</a></h2>
+            <p class="article-content"></p>
+          </div>
+        </article>
+
+
+    <div class="container">
+          <div class="row">
+
+              <img src="{{ url_for('static', filename = 'codin.jpg' )}}"  class="img-fluid" alt="s">
+
+          </div>
+    </div>
+{% endblock content %}
